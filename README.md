@@ -36,6 +36,10 @@
   <a href="#-license">License</a>
 </p>
 
+### Build and Working Example:
+
+> https://suitsquotes.netlify.app
+
 ## 👨🏻‍💻 About the project
 
 This simple project allow you to get **Quote** from TV Series "Suits"
@@ -75,7 +79,7 @@ You can also set a limit (default is 10)
 
 ## 💻 Getting started
 
-You can use ready example on this [address]()
+You can use ready example on this [address](https://suitsquotes.netlify.app)
 
 or
 
