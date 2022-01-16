@@ -1,6 +1,6 @@
 <?php
 
-namespace Maciejlewandowskii\SuitsQuotes;
+namespace Maciejlewandowskii\SuitsQuotes\core;
 
 class Route
 {
@@ -16,7 +16,7 @@ class Route
 			ob_end_flush();
 			@ob_flush();
 			flush();
-			$AsyncCallBack();
+			$AsyncCallBack === null ?? $AsyncCallBack();
 		}
 	}
 
@@ -26,7 +26,8 @@ class Route
 	}
 
 	private static function URLCheck(string $URL): array|bool  {
-		$URLRequested = explode('/', $_SERVER['REQUEST_URI']);
+		$ReqURL = trim(explode('?', $_SERVER['REQUEST_URI'])[0]);
+		$URLRequested = explode('/', $ReqURL);
 		$URLChecked = explode('/', $URL);
 		$Variables = array();
 		foreach($URLRequested as $Key => $Value)   {

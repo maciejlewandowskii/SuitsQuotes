@@ -36,7 +36,7 @@
   <a href="#-license">License</a>
 </p>
 
-### Build and Working Example:
+### Working Example:
 
 > https://suitsquotes.netlify.app
 
@@ -66,9 +66,17 @@ Or search by author:
 
 > **/api/v1/quotes?author=Mike%20Ross**
 
+also you can search by quote:
+
+> **/api/v1/quotes?quote=I%20am%20a%20man**
+
 You can also set a limit (default is 10)
 
 > **/api/v1/quotes?limit=2**
+
+And if you want to get a random quote:
+
+> **/api/v1/quotes?random=true**
 
 ## 👀 Requirements
 
@@ -127,7 +135,7 @@ $ gh repo fork maciejlewandowskii/SuitsQuotes
 
 ```bash
 # Clone your fork
-$ git clone https://github.com/maciejlewandowskii/SuitsQuotes.git && cd SuitsQuotes
+$ git clone your-fork-url && cd SuitsQuotes
 
 # Create a branch with your feature
 $ git checkout -b my-feature

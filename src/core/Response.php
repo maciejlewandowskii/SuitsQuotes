@@ -1,6 +1,6 @@
 <?php
 
-namespace Maciejlewandowskii\SuitsQuotes;
+namespace Maciejlewandowskii\SuitsQuotes\core;
 
 use JetBrains\PhpStorm\NoReturn;
 use JsonException;

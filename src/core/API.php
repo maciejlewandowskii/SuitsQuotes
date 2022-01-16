@@ -1,6 +1,6 @@
 <?php
 
-namespace Maciejlewandowskii\SuitsQuotes;
+namespace Maciejlewandowskii\SuitsQuotes\core;
 
 class API
 {
@@ -9,7 +9,7 @@ class API
 	}
 
 	protected function importEndpoints() {
-		$endpoints = glob(__DIR__ . '/EndPoints/*.php');
+		$endpoints = glob(dirname(__DIR__, 2) . '/EndPoints/*.php');
 		foreach ($endpoints as $endpoint) {
 			require_once $endpoint;
 		}
