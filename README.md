@@ -1,14 +1,14 @@
 <!--suppress HtmlDeprecatedAttribute -->
 <h1 align="center">
 	<!-- <img alt="Logo" src=".github/logo.png" width="200px" /> -->
-  Application Logo
+  Suits Quotes
 </h1>
 
 <h3 align="center">
-  Title
+  API
 </h3>
 
-<p align="center">Short slogan</p>
+<p align="center">Fast, easy and free quotes from the Suits TV Show.</p>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/maciejlewandowskii/SuitsQuotes">
@@ -55,7 +55,7 @@ Technologies that I used to develop this api
 - [PHP > 8](https://www.php.net/)
 - Any Web Server
 
-> Obs.: I recommend use [Apache](https://httpd.apache.org/)
+> I recommend use [Apache](https://httpd.apache.org/)
 
 ## 💻 Getting started
 
@@ -127,4 +127,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with 💜 &nbsp;by Maciej Lewandowski 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/maciejlewandowskii/)
+Made 💜 &nbsp;by Maciej Lewandowski 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/maciejlewandowskii/)
