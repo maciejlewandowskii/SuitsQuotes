@@ -38,7 +38,7 @@
 
 ### Working Example:
 
-> https://suitsquotes.netlify.app
+> https://suitsquotes.000webhostapp.com/api/v1/quotes
 
 ## 👨🏻‍💻 About the project
 
@@ -87,7 +87,7 @@ And if you want to get a random quote:
 
 ## 💻 Getting started
 
-You can use ready example on this [address](https://suitsquotes.netlify.app)
+You can use ready example on this [address](https://suitsquotes.000webhostapp.com/api/v1/quotes)
 
 or
 
