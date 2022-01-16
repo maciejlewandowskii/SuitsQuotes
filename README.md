@@ -26,8 +26,6 @@
   <a href="https://github.com/EliasGcf/readme-template/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/maciejlewandowskii/SuitsQuotes">
   </a>
-
-  <img alt="GitHub" src="https://img.shields.io/github/license/maciejlewandowskii/SuitsQuotes">
 </p>
 
 <p align="center">
