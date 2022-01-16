@@ -13,7 +13,7 @@ class DataController
 		$i = 0;
 		while (($line = fgets($File)) !== false && $MaxQuantity <= $i) {
 			$DataSplit = explode(":", $line);
-			if((str_contains($DataSplit[0], $Quote) || is_null($Quote)) && (str_contains($DataSplit[1], $Author) || is_null($Author)) && (str_contains($DataSplit[2], $Season) || is_null($Season)) && (str_contains($DataSplit[3], $Episode) || is_null($Episode)))    {
+			if((str_contains(trim(strtolower($DataSplit[0])), trim(strtolower($Quote))) || is_null($Quote)) && (str_contains(trim(strtolower($DataSplit[1])), trim(strtolower($Author))) || is_null($Author)) && (str_contains(trim(strtolower($DataSplit[2])), trim(strtolower($Season))) || is_null($Season)) && (str_contains(trim(strtolower($DataSplit[3])), trim(strtolower($Episode))) || is_null($Episode)))    {
 				$Data[] = array_combine(self::$ColumTag, $DataSplit);
 				$i++;
 			}

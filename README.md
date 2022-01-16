@@ -50,6 +50,24 @@ Technologies that I used to develop this api
 - [Composer](https://getcomposer.org/)
 - [JSON](https://www.json.org/)
 
+## 🌱 API Endpoints
+
+This API has only 1 Endpoint:
+
+> **/api/v1/quotes**
+
+But you can search in Quotes by adding parameters to query:
+
+> **/api/v1/quotes?season=1&episode=1**
+
+Or search by author:
+
+> **/api/v1/quotes?author=Mike%20Ross**
+
+You can also set a limit (default is 10)
+
+> **/api/v1/quotes?limit=2**
+
 ## 👀 Requirements
 
 - [PHP > 8](https://www.php.net/)
