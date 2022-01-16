@@ -1,0 +1,18 @@
+{
+    "name": "maciejlewandowskii/suits-quotes",
+    "description": "Simple PHP API to get \"Suits\" Quotes",
+    "type": "project",
+    "autoload": {
+        "files": ["src/Initial.php"],
+        "psr-4": {
+            "Maciejlewandowskii\\SuitsQuotes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maciej Lewandowski",
+            "email": "costerxd53@gmail.com"
+        }
+    ],
+    "require": {}
+}
