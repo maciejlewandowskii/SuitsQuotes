@@ -54,11 +54,16 @@ Technologies that I used to develop this api
 
 ## 🌱 API Endpoints
 
-This API has only 1 Endpoint:
+This API has 2 Endpoints:
 
 > **/api/v1/quotes**
 
-But you can search in Quotes by adding parameters to query:
+or
+
+> **/api/v1/quotes/img**
+> >this Endpoint return a 1 quote but as image, you can also filter results.
+
+You can search in Quotes by adding parameters to query:
 
 > **/api/v1/quotes?season=1&episode=1**
 
